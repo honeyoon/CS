@@ -45,5 +45,21 @@ Database
     
 </br>
 
+## 데이터베이스 언어
 
-    
+### 데이터 정의 언어 (DDL : Data Definition Language)
+* 데이터베이스, 테이블, 인덱스 생성 및 삭제
+* 번역 결과가 데이터 사전이라는 파일에 여러개의 테이블로 저장
+* 스키마, 도메인, 테이블, 뷰, 인덱스 정의, 변경, 삭제
+* **DDL의 세가지 유형**  
+    CREATE(정의), ALTER(변경), DROP(삭제)
+
+### 데이터 조작 언어 (DML : Data Manipulation Language)
+* 사용자와 DBMS 간의 인터페이스 제공
+* **DML의 네가지 유형**  
+    SELECT(튜플 검색), INSERT(튜플 삽입), UPDATE(튜플 갱신), DELETE(튜플 삭제)
+
+### 데이터 제어 언어 (DCL : Data Control Language)
+* 데이터의 보안, 무결성, 회복, 복구 및 병행 제어
+* **DCL의 종류**  
+    COMMIT(결과를 실제 물리적 디스트로 저장), ROLLBACK(비정상 종료시 복구), GRANT(권한 부여), REVOKE(권한 취소)
