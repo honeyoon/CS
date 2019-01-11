@@ -1,2 +1,2 @@
 # CS
-Study for Computer Science
+Study for Computer Science 💻
